@@ -4,6 +4,7 @@ print(set('helloo'))
 
 st = 'Mukit Hasan Pranto'
 new_st = set(("".join(st.split())).lower())
+print(new_st)
 print('Distinct Letters:',len(new_st))
 
 setA = {1,2,3,4,5}

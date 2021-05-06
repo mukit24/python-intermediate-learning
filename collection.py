@@ -1,7 +1,11 @@
 from collections import Counter,namedtuple,defaultdict,OrderedDict,deque
 st = "my name is mukit hasan pranto"
+print(Counter('aabcc'))
 dict_st = Counter(st)
-print(dict_st)
+
+for key,value in dict_st.items():
+    print('{}---{}'.format(key,value))
+    
 print(dict_st.most_common(2))
 li = ['apple','banana','apple',5,5,9,0,9,5,'apple','banana',5,0]
 dict_li = Counter(li)
